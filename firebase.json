@@ -1,0 +1,32 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "pakistan-brands",
+          "appId": "1:987466458725:android:8ea7c5ec9a36a37f18088c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "pakistan-brands",
+          "configurations": {
+            "android": "1:987466458725:android:8ea7c5ec9a36a37f18088c",
+            "web": "1:954285103347:web:932927a23eeb1726017f86"
+          }
+        }
+      }
+    }
+  },
+    "hosting": {
+      "public": "build/web",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+}

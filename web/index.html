@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- App Info -->
+    <title>Savyour - Best Deals, Discounts & Coupons from Top Brands</title>
+    <meta name="description" content="Discover unbeatable deals, exclusive discounts, trending sales, and verified coupons from 1200+ top brands. Save big every time you shop with Savyour!">
+    <meta name="keywords" content="deals, discounts, coupons, offers, brands, shopping, Pakistan">
+    <meta name="author" content="Savyour">
+
+    <!-- Viewport & Compatibility -->
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+
+    <!-- Google Adsense -->
+    <meta name="google-adsense-account" content="ca-pub-6718784050212331">
+    <!--    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>-->
+
+    <!-- Open Graph Tags for Social Sharing -->
+    <meta property="og:title" content="Savyour - Best Deals, Discounts & Coupons from Top Brands" />
+    <meta property="og:description" content="Discover unbeatable deals, exclusive discounts, trending sales, and verified coupons from 1200+ top brands. Save big every time you shop with Savyour!" />
+    <meta property="og:image" content="https://savyour.io/webFavicon2.png" />
+    <meta property="og:url" content="https://savyour.io" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Savyour - Best Deals, Discounts, Sales & Coupons from Top Brands" />
+    <meta name="twitter:description" content="Discover unbeatable deals, exclusive discounts, trending sales, and verified coupons from 1200+ top brands. Save big every time you shop with Savyour!" />
+    <meta name="twitter:image" content="https://savyour.io/webFavicon2.png" />
+
+    <!-- Favicon - Multiple sizes for better compatibility -->
+    <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/web-app-manifest-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="icons/web-app-manifest-512x512.png">
+    <link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
+
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="icons/web-app-manifest-192x192.png">
+
+    <!-- iOS meta tags -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Savyour">
+
+    <!-- Structured Data for Search Engines -->
+<!--    <script type="application/ld+json">-->
+<!--        {-->
+<!--            "@context": "https://schema.org",-->
+<!--            "@type": "WebApplication",-->
+<!--            "name": "Savyour - Best Deals, Discounts & Coupons",-->
+<!--            "url": "https://savyour.io",-->
+<!--            "logo": "https://savyour.io/webFavicon2.png",-->
+<!--            "description": "Discover unbeatable deals, exclusive discounts, trending sales, and verified coupons from 1200+ top brands. Save big every time you shop with Savyour!",-->
+<!--            "applicationCategory": "BusinessApplication",-->
+<!--            "operatingSystem": "All"-->
+<!--        }-->
+<!--    </script>-->
+
+    <!-- Flutter Config -->
+    <base href="$FLUTTER_BASE_HREF">
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Firebase App (Core SDK) -->
+    <script src="https://www.gstatic.com/firebasejs/10.12.1/firebase-app.js"></script>
+    <!-- Firebase Analytics SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.12.1/firebase-analytics.js"></script>
+
+<!--    <script>-->
+<!--        const firebaseConfig = {-->
+<!--            apiKey: "AIzaSyBX-iptVkzdOUCFtS6VyD-ojT03eI6jZJM",-->
+<!--            authDomain: "pakistan-brands.firebaseapp.com",-->
+<!--            projectId: "pakistan-brands",-->
+<!--            storageBucket: "pakistan-brands.appspot.com",-->
+<!--            messagingSenderId: "987466458725",-->
+<!--            appId: "1:987466458725:web:f8477d328643a07b18088c",-->
+<!--            measurementId: "G-XXQ5Y09NZ4"-->
+<!--        };-->
+<!--        const app = firebase.initializeApp(firebaseConfig);-->
+<!--        firebase.analytics();-->
+<!--    </script>-->
+
+    <!-- Splashscreen Style -->
+    <style id="splash-screen-style">
+        html {
+            height: 100%;
+        }
+        body {
+            margin: 0;
+            min-height: 100%;
+            background-color: #fff;
+            background-size: 100% 100%;
+        }
+        .center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        .contain {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        .stretch {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        .cover {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .bottom {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+        }
+        .bottomLeft {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        .bottomRight {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+
+    <script id="splash-screen-script">
+        function removeSplashFromWeb() {
+            document.getElementById("splash")?.remove();
+            document.body.style.background = "transparent";
+        }
+    </script>
+</head>
+
+<body>
+<!-- Splashscreen -->
+<picture id="splash">
+    <source srcset="icons/web-app-manifest-192x192.png 1x, icons/web-app-manifest-512x512.png 2x" media="(prefers-color-scheme: light)">
+    <source srcset="icons/web-app-manifest-192x192.png 1x, icons/web-app-manifest-512x512.png 2x" media="(prefers-color-scheme: dark)">
+    <img class="center" aria-hidden="true" src="icons/web-app-manifest-192x192.png" alt="Savyour Splash">
+</picture>
+
+<!-- Flutter Bootstrap -->
+<script src="flutter_bootstrap.js"></script>
+</body>
+
+</html>

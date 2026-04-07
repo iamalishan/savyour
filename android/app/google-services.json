@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "987466458725",
+    "project_id": "pakistan-brands",
+    "storage_bucket": "pakistan-brands.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987466458725:android:ac3b03852790b88a18088c",
+        "android_client_info": {
+          "package_name": "io.savyour.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoX9GOCvXwa-690dH5pCmjB1ePj8PqsG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

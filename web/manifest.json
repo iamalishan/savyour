@@ -1,0 +1,25 @@
+{
+  "name": "Savyour - Best Deals, Discounts, Sales & Coupons",
+  "short_name": "Savyour",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0175C2",
+  "theme_color": "#0175C2",
+  "description": "Discover unbeatable deals, exclusive discounts, trending sales, and verified coupons from 1200+ top brands. Save big every time you shop with Savyour!",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
